@@ -1,12 +1,80 @@
-# React + Vite
+# 🍳 Recipedia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Recipedia is a **Recipe Search Application** built with React + Vite.  
+It helps you discover delicious recipes, shows all the required ingredients, and guides you step-by-step through the complete cooking process.  
+Even if you don’t know the exact name of a dish, Recipedia assists you in finding it and provides an optimized way to prepare it.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+👉 [Try Recipedia here](https://recipedia-flax.vercel.app/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🔍 Search recipes by dish name or related keywords  
+- 🛒 View all required ingredients for each recipe  
+- 👩‍🍳 Step-by-step cooking process for easy preparation  
+- 🤔 Smart search suggestions if you don’t know the exact dish name  
+- ⚡ Optimized and responsive UI for mobile & desktop  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **API:** [DummyJSON Recipes API](https://dummyjson.com/recipes/search?q=${item})  
+- **Deployment:** Vercel  
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run Recipedia locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/lakshay-porwal/Recipedia.git
+cd Recipedia
+2. Install dependencies
+bash
+Copy code
+npm install
+3. Start the development server
+bash
+Copy code
+npm run dev
+Your app will be live at 👉 http://localhost:5173
+
+🤝 Contributing
+Contributions are welcome! 🎉
+
+Steps to contribute:
+
+Fork this repository
+
+Create your feature branch
+
+bash
+Copy code
+git checkout -b feature-name
+Commit your changes
+
+bash
+Copy code
+git commit -m "Add new feature"
+Push to the branch
+
+bash
+Copy code
+git push origin feature-name
+Open a Pull Request
+
+📜 License
+This project is licensed under the MIT License.
+
+👤 Author
+Lakshay Porwal
+
+🔗 GitHub: lakshay-porwal
+💼 LinkedIn: lakshay-porwal
