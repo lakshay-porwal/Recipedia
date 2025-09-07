@@ -48,7 +48,7 @@ npm run dev
 ```
 Your app will be live at 👉 http://localhost:5173
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! 🎉
 
 Steps to contribute:
@@ -74,10 +74,10 @@ git push origin feature-name
 Open a Pull Request
 ```
 
-📜 License
+###📜 License
 This project is licensed under the MIT License.
-
-👤 Author
-Lakshay Porwal
-🔗 GitHub: lakshay-porwal
-💼 LinkedIn: lakshay-porwal
+---
+### 👤 Author
+-Lakshay Porwal
+-🔗 GitHub: lakshay-porwal
+-💼 LinkedIn: lakshay-porwal
