@@ -44,6 +44,8 @@ npm install
 bash
 Copy code
 npm run dev
+
+```
 Your app will be live at 👉 http://localhost:5173
 
 🤝 Contributing
@@ -55,7 +57,7 @@ Fork this repository
 
 Create your feature branch
 
-bash
+```bash
 Copy code
 git checkout -b feature-name
 Commit your changes
@@ -68,13 +70,14 @@ Push to the branch
 bash
 Copy code
 git push origin feature-name
+
 Open a Pull Request
+```
 
 📜 License
 This project is licensed under the MIT License.
 
 👤 Author
 Lakshay Porwal
-
 🔗 GitHub: lakshay-porwal
 💼 LinkedIn: lakshay-porwal
