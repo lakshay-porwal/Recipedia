@@ -1,4 +1,4 @@
-# 🍳 Recipedia
+# Recipedia
 
 Recipedia is a **Recipe Search Application** built with React + Vite.  
 It helps you discover delicious recipes, shows all the required ingredients, and guides you step-by-step through the complete cooking process.  
