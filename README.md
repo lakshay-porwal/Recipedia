@@ -73,11 +73,13 @@ git push origin feature-name
 
 Open a Pull Request
 ```
-
+---
 ###📜 License
 This project is licensed under the MIT License.
 ---
 ### 👤 Author
--Lakshay Porwal
--🔗 GitHub: lakshay-porwal
--💼 LinkedIn: lakshay-porwal
+Lakshay Porwal
+---
+🔗 GitHub: lakshay-porwal
+---
+💼 LinkedIn: lakshay-porwal
