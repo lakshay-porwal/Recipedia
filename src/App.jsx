@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-import { RouterProvider, Router, Route, Outlet } from '@tanstack/react-router';
-import { createRootRoute } from '@tanstack/react-router';
-import Header from './components/Header';
-import { RouteIndex } from './routes/index';
-import { RouteRecipe } from './routes/recipe';
-import './index.css'
-=======
-import { RouterProvider, Router, Route, Outlet, useRouterState } from '@tanstack/react-router';
-import { createRootRoute } from '@tanstack/react-router';
+import { RouterProvider, createRouter, createRoute, Outlet, useRouterState, createRootRoute } from '@tanstack/react-router';
 import Navbar from './components/Navbar';
 import { RouteIndex } from './routes/index';
 import { RouteRecipe } from './routes/recipe';
@@ -34,41 +25,29 @@ function AnimatedOutlet() {
     </AnimatePresence>
   );
 }
->>>>>>> 93149ce (enahnce features)
 
 const rootRoute = createRootRoute({
   component: () => (
     <>
-<<<<<<< HEAD
-      <Header />
-      <Outlet />
-=======
       <Navbar />
       <div className="pt-16 min-h-screen bg-stone-50">
         <AnimatedOutlet />
       </div>
->>>>>>> 93149ce (enahnce features)
     </>
   ),
 });
 
-<<<<<<< HEAD
-const routeTree = rootRoute.addChildren([
-  new Route({ ...RouteIndex, getParentRoute: () => rootRoute }),
-  new Route({ ...RouteRecipe, getParentRoute: () => rootRoute }), 
-=======
 
 const routeTree = rootRoute.addChildren([
-  new Route({ ...RouteIndex, getParentRoute: () => rootRoute }),
-  new Route({ ...RouteRecipe, getParentRoute: () => rootRoute }),
-  new Route({ ...RouteFavorites, getParentRoute: () => rootRoute }),
-  new Route({ ...RoutePantry, getParentRoute: () => rootRoute }),
-  new Route({ ...RouteShoppingList, getParentRoute: () => rootRoute }),
->>>>>>> 93149ce (enahnce features)
+  createRoute({ ...RouteIndex, getParentRoute: () => rootRoute }),
+  createRoute({ ...RouteRecipe, getParentRoute: () => rootRoute }),
+  createRoute({ ...RouteFavorites, getParentRoute: () => rootRoute }),
+  createRoute({ ...RoutePantry, getParentRoute: () => rootRoute }),
+  createRoute({ ...RouteShoppingList, getParentRoute: () => rootRoute }),
 ]);
 
 
-const router = new Router({ routeTree });
+const router = createRouter({ routeTree });
 
 
 function App() {
@@ -76,7 +55,3 @@ function App() {
 }
 
 export default App;
-<<<<<<< HEAD
-=======
-
->>>>>>> 93149ce (enahnce features)
