@@ -1,4 +1,5 @@
 @import "tailwindcss";
+<<<<<<< HEAD
 /* .header{
   /* background-color: green; */
   /* padding: 20px;
@@ -74,4 +75,31 @@ h1, h3 {
 body {
   @apply bg-gray-50 text-gray-800;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+
+@theme {
+  --color-primary: var(--color-emerald-600);
+  --color-secondary: var(--color-orange-500);
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-stone-50 text-stone-800 antialiased;
+  font-family: var(--font-sans);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #10b981; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #059669; 
+>>>>>>> 93149ce (enahnce features)
 }
